@@ -29,7 +29,13 @@ export default function Home() {
     <div className="min-h-screen bg-blue-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-lg p-8 w-full max-w-sm">
         <div className="text-center mb-8">
-          <div className="text-5xl mb-3">🏥</div>
+          <div className="mb-3">
+            <img
+              src="/images/logo_medical.png"
+              alt="Cabinet Infirmier"
+              className="w-16 h-16 mx-auto"
+            />
+          </div>
           <h1 className="text-2xl font-bold text-blue-900">Cabinet Infirmier</h1>
           <p className="text-gray-500 mt-1">Connectez-vous à votre espace</p>
         </div>
